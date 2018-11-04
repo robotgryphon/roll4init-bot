@@ -1,0 +1,7 @@
+type User {
+	Username: String
+	NameFirst: String
+	NameLast: String
+	LastModified: DateTime
+	Characters: [Character]
+}

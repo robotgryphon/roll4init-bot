@@ -1,0 +1,11 @@
+scalar DateTime
+
+type RootQuery {
+	session(hash: String!): GameSession
+	userByUsername(username: String!): User
+	userByDiscord(discord: String!): User
+}
+
+schema {
+	query: RootQuery
+}

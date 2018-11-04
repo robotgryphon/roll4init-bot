@@ -1,0 +1,23 @@
+# A character represents a character in the game, but not added to a session.
+type Character {
+	Name: String
+	Health: Int
+	Owner: User
+	Created: DateTime
+
+	Strength: Int
+	Dexterity: Int
+	Constitution: Int
+	Wisdom: Int
+	Intelligence: Int
+	Charisma: Int
+
+	StrengthMod: Int
+	DexterityMod: Int
+	ConstitutionMod: Int
+	WisdomMod: Int
+	IntelligenceMod: Int
+	CharismaMod: Int
+
+	InitiativeMod: Int
+}

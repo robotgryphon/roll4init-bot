@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        /* Basic Options */
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": true,
+
+        /* Strict Type-Checking Options */
+        "noImplicitAny": false,
+        "strictFunctionTypes": true,
+
+        /* Additional Checks */
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+
+        "lib": ["es6", "esnext.asynciterable", "dom"],
+
+        /* Module Resolution Options */
+        "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+
+        /* Source Map Options */
+        // "sourceRoot": "./",                    /* Specify the location where debugger should locate TypeScript files instead of source locations. */
+        // "mapRoot": "./",                       /* Specify the location where debugger should locate map files instead of generated locations. */
+        // "inlineSourceMap": true,               /* Emit a single file with source maps instead of having a separate file. */
+        // "inlineSources": true,                 /* Emit the source alongside the sourcemaps within a single file; requires '--inlineSourceMap' or '--sourceMap' to be set. */
+
+        /* Experimental Options */
+        // "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
+        // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
+    }
+}
